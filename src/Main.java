@@ -32,7 +32,15 @@ public class Main {
 		System.out.println(myObject.carName);
 		
 		Main myProfil = new Main("Amina", "KHIAT", "Algerienne", 33);
-		System.out.println(myProfil.fName+ myProfil.lName + myProfil.nationality +myProfil.age );
+		System.out.println(myProfil.fName+" " +myProfil.lName+" " + myProfil.nationality+" " +myProfil.age );
+		
+		
+		//les information de Student
+		Student newStudent = new Student(); //nouveau objet 
+		newStudent.setName("Amina"); 
+		newStudent.setAge(33);
+		
+		System.out.println(newStudent.getName()+" " + newStudent.getAge());
 		
 		}
 	
